@@ -37,6 +37,13 @@ module.exports = {
             },
           },
           {
+            resolve: 'gatsby-plugin-mailchimp',
+            options: {
+                endpoint: 'https://gmail.us7.list-manage.com/subscribe/post?u=503fc06d527f31c4f1cfd2271&amp;id=18af32e43e', // string; add your MC list endpoint here; see instructions below
+                timeout: 3500,
+            }
+          },
+          {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {
               wrapperStyle: `margin-bottom: 1.0725rem`,
